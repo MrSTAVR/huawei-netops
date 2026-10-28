@@ -1,0 +1,31 @@
+# Данные: база, настройки, конфиги устройств и выгрузки — в репозиторий не попадают
+*.db
+*.db-journal
+settings.json
+vrpcfg*.txt
+*.cfg
+*.csv
+*.xlsx
+switches_export*.json
+huawei_configs*.txt
+
+# Старый тестовый скрипт с привязкой к реальному конфигу
+test.pu.py
+
+# Сборка Nuitka / PyInstaller
+*.build/
+*.dist/
+*.onefile-build/
+build/
+dist/
+*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
